@@ -24,3 +24,11 @@ orderObject : Order(cardType=="DBS" && price>15000);
 then
 orderObject.setDiscount(15);
 end;
+
+rule "AXIS"
+
+when
+orderObject : Order(cardType=="AXIS" && price>=20000);
+then
+orderObject.setDiscount(10);
+end;
