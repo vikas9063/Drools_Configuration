@@ -8,6 +8,7 @@ public class DroolsExamplePocApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DroolsExamplePocApplication.class, args);
+		System.out.println("drool start..");
 	}
 
 }
